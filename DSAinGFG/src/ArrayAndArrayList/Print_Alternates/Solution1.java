@@ -1,4 +1,4 @@
-package ArrayAndArrayList.problem1;
+package ArrayAndArrayList.Print_Alternates;
 import java.util.ArrayList;
 import java.util.Arrays;
 
