@@ -15,7 +15,7 @@ import java.util.Arrays;
 public class Solution1 {
     public static void main(String[] args){
 
-/**
+/*
  * Methodology: [Naive Approach] Using Nested Loops
  * Author: Ahmed Hussein
  * * * Logic & Execution:
@@ -46,7 +46,7 @@ public class Solution1 {
                     break;
                 }
             }
-            if (a == true)
+            if (a)
                 leaders.add(original.get(i));
             }
         System.out.println(leaders);

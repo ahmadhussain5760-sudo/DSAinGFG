@@ -42,7 +42,7 @@ public class Solution2 {
         Integer[]arr={16, 17, 4, 3, 5, 2};
         ArrayList<Integer> original=new ArrayList<>(Arrays.asList(arr));
         ArrayList<Integer>leaders=new ArrayList<>();
-        int max=original.get(original.size()-1);
+        int max = original.get(original.size() - 1);
 
         for (int i=original.size()-1;i>=0;i--){
             if (max<=original.get(i)) {
