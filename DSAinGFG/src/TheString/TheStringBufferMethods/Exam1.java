@@ -1,4 +1,4 @@
-package TheString.TheStringBufferExample;
+package TheString.TheStringBufferMethods;
 
 public class Exam1 {
     public static void main(String[] args) {
