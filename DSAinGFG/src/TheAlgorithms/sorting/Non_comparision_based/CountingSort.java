@@ -1,4 +1,4 @@
-package TheAlgorithms.sorting.comparision_based;
+package TheAlgorithms.sorting.Non_comparision_based;
 
 public class CountingSort {
 
@@ -23,6 +23,13 @@ int indexOfArray=0;
         }
 
             }
+    }
+
+
+    public static void main(String[] args) {
+        int[] arr ={7,12,7,8,9};
+        countingSort(arr);
+        for (int j : arr) System.out.println(j);
     }
     }
 
