@@ -2,6 +2,7 @@ package TheAlgorithms.sorting.comparision_based;
 
 public class CycleSort {
     static void cycle(int[] arr) {
+         int countCycle=0;
         for (int i = 0; i < arr.length; i++) {
             int item = arr[i];
             int pos = i;
@@ -10,11 +11,16 @@ public class CycleSort {
                 if (arr[j] < item)
                     pos++;
             }
-            if (pos==i)continue;
+            if (pos==i) {
+                countCycle=countCycle+1;
+                continue;
+
+            }
             while (item==arr[pos])pos++;
             int temp = arr[pos];
             arr[pos] = item;
             item = temp;
+            countCycle=countCycle+1;
 
 
             while (pos != i) {
@@ -29,9 +35,11 @@ public class CycleSort {
                 temp = arr[pos];
                 arr[pos] = item;
                 item = temp;
+                countCycle=countCycle+1;
             }
-
+            if (countCycle== arr.length-1)break;
         }
+
 
     }
 
