@@ -123,10 +123,11 @@ public class _3_way_merge_sort {
 
     public static void main(String[] args) {
         int []arr={1,5,3,4,8,7,3,9,2,5};
-        printArr(arr);
-        split(arr, arr.length-1, 0);
+        int[] arr1 = {0, -5, 3, 3, -1, 0, 7, -5, 2, 4};
+        printArr(arr1);
+        split(arr1, arr1.length-1, 0);
         System.out.println();
-        printArr(arr);
+        printArr(arr1);
     }
 
 }
