@@ -1,0 +1,27 @@
+/**
+ * TWO-POINTERS TECHNIQUE OVERVIEW
+ * * DESCRIPTION:
+ * The Two-Pointers technique is an algorithmic strategy that uses two indices (pointers)
+ * to traverse a data structure (array, list, or string) efficiently. It is a
+ * fundamental optimization tool that often reduces time complexity from O(n²) to O(n).
+ *
+ * KEY PATTERNS:
+ * 1. Opposite Ends:
+ * - Pointers start at 'left' (0) and 'right' (n-1).
+ * - Commonly used for Sorted Arrays, Palindromes, and Reversing elements.
+ * * 2. Slow & Fast (Tortoise and Hare):
+ * - One pointer moves 1 step, the other moves 2 steps.
+ * - Essential for Linked List Cycle Detection and finding the middle node.
+ * * 3. Sliding Window:
+ * - Pointers define a range [left...right] that expands or shrinks dynamically.
+ * - Used for finding subarrays or substrings meeting specific criteria.
+ *
+ * WHY USE IT?
+ * - Efficiency: Optimizes nested loops into a single linear pass.
+ * - Space: Usually requires O(1) extra space as it works in-place.
+ * * WHEN TO APPLY:
+ * - When the input is sorted.
+ * - When searching for pairs, triplets, or subarrays.
+ * - When dealing with Linked List structure issues.
+ */
+
